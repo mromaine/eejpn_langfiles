@@ -7,7 +7,7 @@
 function admin_notify_mailinglist_title()
 {
 return <<<EOF
-Someone has subscribed to your mailing list
+メーリングリストに誰かが登録しました
 EOF;
 }
 
@@ -16,8 +16,8 @@ function admin_notify_mailinglist()
 return <<<EOF
 A new mailing list subscription has been accepted.
 
-Email Address: {email}
-Mailing List: {mailing_list}
+メールアドレス: {email}
+メールリスト: {mailing_list}
 EOF;
 }
 /* END */
@@ -30,7 +30,7 @@ EOF;
 function admin_notify_entry_title()
 {
 return <<<EOF
-A new weblog entry has been posted
+ウェブログに新たな記事が投稿されました
 EOF;
 }
 
@@ -152,20 +152,18 @@ EOF;
 function mbr_activation_instructions_title()
 {
 return <<<EOF
-Enclosed is your activation code
+エクスプレッションエンジン会員登録用メール
 EOF;
 }
 
 function mbr_activation_instructions()
 {
 return <<<EOF
-Thank you for your new member registration.
-
-To activate your new account, please visit the following URL:
+この度は、エクスプレッションエンジン(ee)にお申し込みいただき、誠にありがとうございます。
+仮登録が完了しましたので以下のＵＲＬから本登録をしてください
 
 {unwrap}{activation_url}{/unwrap}
 
-Thank You!
 
 {site_name}
 
@@ -182,14 +180,14 @@ EOF;
 function forgot_password_instructions_title()
 {
 return <<<EOF
-Login information
+ログイン情報
 EOF;
 }
 
 function forgot_password_instructions()
 {
 return <<<EOF
-{name},
+{name}さん,
 
 To reset your password, please go to the following page:
 
@@ -214,19 +212,19 @@ EOF;
 function reset_password_notification_title()
 {
 return <<<EOF
-New Login Information
+eeアカウント情報
 EOF;
 }
 
 function reset_password_notification()
 {
 return <<<EOF
-{name},
+{name}さん,
 
-Here is your new login information:
+以下がログイン情報です。大切に保管して下さい。
 
-Username: {username}
-Password: {password}
+ユーザー名: {username}
+パスワード: {password}
 
 {site_name}
 {site_url}
@@ -243,18 +241,17 @@ EOF;
 function validated_member_notify_title()
 {
 return <<<EOF
-Your membership account has been activated
+登録完了のお知らせ
 EOF;
 }
 
 function validated_member_notify()
 {
 return <<<EOF
-{name},
+{name}さん,
 
-Your membership account has been activated and is ready for use.
-
-Thank You!
+この度は、eeにお申し込みいただき、誠にありがとうございます。
+登録が完了しましたので、eeコミュニティーを楽しんでください！
 
 {site_name}
 {site_url}
