@@ -1079,7 +1079,8 @@ $L = array(
 "キーワード:",
 
 "enable_smileys" =>
-"Enable smileys in this post",
+"絵文字を有効にする",
+#"Enable smileys in this post",
 
 'forum_boards' =>
 "フォーラム",
