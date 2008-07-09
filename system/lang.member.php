@@ -165,7 +165,7 @@ $L = array(
 "プライベートメッセージの表示",
 
 "elapsed_time" =>
-"{elapsed_time} 秒で実行されるスクリプト",
+"{elapsed_time} 秒で実行しました",
 
 "email_console" =>
 "Eメールコンソール",
@@ -198,7 +198,8 @@ $L = array(
 "フォトは削除されました。",
 
 "your_control_panel" =>
-"コントロールパネル",
+"マイページ",
+#"コントロールパネル",
 
 "control_panel_home" =>
 "コントロールパネルホーム",

@@ -21,6 +21,9 @@ $L = array(
 "select_theme" =>
 "テーマを選択",
 
+"current_theme" =>
+"現在のスキン：",
+
 "rss_feed" =>
 "RSS 2.0",
 
@@ -252,10 +255,11 @@ $L = array(
 "アノニマスユーザー数:",
 
 "most_users_ever" =>
-"The most visitors ever was",
+"最高同時ユーザー数は",
+#"The most visitors ever was",
 
 "visited_on" =>
-"に",
+"",
 #"on",
 
 "posted_on" =>
@@ -290,19 +294,20 @@ $L = array(
 #"Most Recent Posts",
 
 "active_members" =>
-"アクティブメンバー:",
+"現在ログイン中:",
+#"アクティブメンバー:",
 
 "forum_name_heading" =>
 "フォーラム名",
 
 "total_topics_heading" =>
-"トピックス",
+"トピック数",
 
 "total_posts_heading" =>
-"ポスト",
+"ポスト数",
 
 'total_replies_heading' =>
-"返事",
+"返事数",
 
 "joined" =>
 "参加",
@@ -333,7 +338,7 @@ $L = array(
 "最新ポスト情報",
 
 "total_views_heading" =>
-"Views",
+"ご覧数",
 #"Views",
 
 "moderated_by" =>
@@ -785,7 +790,8 @@ $L = array(
 "一行を追加",
 
 "legend" =>
-"Post Marker Legend",
+"アイコンの意味",
+#"Post Marker Legend",
 
 "legend_new_posts" =>
 "新規ポスト",
@@ -969,10 +975,11 @@ $L = array(
 #"Announcements can't be replied to",
 
 "your_profile" =>
-"公開ようのプロフィール",
+"公開用プロフィール",
 
 "your_control_panel" =>
-"コントロールパネル",
+"マイページ",
+#"コントロールパネル",
 
 "signature" =>
 "Signature",
